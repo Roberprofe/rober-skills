@@ -66,32 +66,32 @@ Si quieres tenerlas disponibles en todos tus proyectos y no solo en una carpeta,
 **Gemini CLI** (cuota diaria gratuita con cuenta de Google):
 
 ```bash
-npx skills add roberprofe/skills-aula --skill rober-explica --skill rober-ayuda --agent gemini-cli
+npx skills add roberprofe/rober-skills --skill rober-explica --skill rober-ayuda --agent gemini-cli
 ```
 
 **VS Code + GitHub Copilot** (plan Free):
 
 ```bash
-npx skills add roberprofe/skills-aula --skill rober-explica --skill rober-ayuda --agent github-copilot
+npx skills add roberprofe/rober-skills --skill rober-explica --skill rober-ayuda --agent github-copilot
 ```
 
 **OpenCode** (gratuito, compatible con modelos gratuitos o modelos locales con Ollama):
 
 ```bash
-npx skills add roberprofe/skills-aula --skill rober-explica --skill rober-ayuda --agent opencode
+npx skills add roberprofe/rober-skills --skill rober-explica --skill rober-ayuda --agent opencode
 ```
 
 **Cursor** (plan gratuito limitado) o **Cline** (extensión gratuita en VS Code):
 
 ```bash
-npx skills add roberprofe/skills-aula --skill rober-explica --skill rober-ayuda --agent cursor
-npx skills add roberprofe/skills-aula --skill rober-explica --skill rober-ayuda --agent cline
+npx skills add roberprofe/rober-skills --skill rober-explica --skill rober-ayuda --agent cursor
+npx skills add roberprofe/rober-skills --skill rober-explica --skill rober-ayuda --agent cline
 ```
 
 **Antigravity**:
 
 ```bash
-npx skills add roberprofe/skills-aula --skill rober-explica --skill rober-ayuda --agent antigravity
+npx skills add roberprofe/rober-skills --skill rober-explica --skill rober-ayuda --agent antigravity
 ```
 
 ### Otros agentes compatibles
@@ -99,19 +99,19 @@ npx skills add roberprofe/skills-aula --skill rober-explica --skill rober-ayuda 
 **Codex** y **OpenCode** a la vez (puedes encadenar varios `--agent` en un mismo comando):
 
 ```bash
-npx skills add roberprofe/skills-aula --skill rober-explica --skill rober-ayuda --agent codex --agent opencode
+npx skills add roberprofe/rober-skills --skill rober-explica --skill rober-ayuda --agent codex --agent opencode
 ```
 
 **Claude Code**:
 
 ```bash
-npx skills add roberprofe/skills-aula --skill rober-explica --skill rober-ayuda --agent claude-code
+npx skills add roberprofe/rober-skills --skill rober-explica --skill rober-ayuda --agent claude-code
 ```
 
 **Hermes Agent** (instalación global en tu usuario):
 
 ```bash
-npx skills add roberprofe/skills-aula --agent hermes-agent --global
+npx skills add roberprofe/rober-skills --agent hermes-agent --global
 ```
 
 ### Instalación manual (si no tienes Node.js)
