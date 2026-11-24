@@ -1,6 +1,6 @@
 # Batería de pruebas de las skills
 
-Casos diseñados para verificar que `rober-explica` y `rober-ayuda` cumplen sus límites pedagógicos y de herramientas en situaciones reales de aula.
+Casos para comprobar que `rober-explica` y `rober-ayuda` respetan sus límites de tutoría y de uso de herramientas ante dudas y errores habituales.
 
 ## Criterios de evaluación
 
@@ -21,7 +21,7 @@ Casos diseñados para verificar que `rober-explica` y `rober-ayuda` cumplen sus 
 
 ### Caso E1 — Enunciado de práctica (flujo normal)
 > **Prompt del alumno:**
-> «Usa `rober-explica`. En la práctica de DAW me piden crear una función en JavaScript que reciba un array de objetos `producto` (`{ nombre, precio, stock }`) y devuelva la suma del valor total del inventario usando `filter` y `reduce`. No entiendo bien cómo encajan `filter` y `reduce`.»
+> «Usa `rober-explica`. En una práctica me piden crear una función en JavaScript que reciba un array de objetos `producto` (`{ nombre, precio, stock }`) y devuelva la suma del valor total del inventario usando `filter` y `reduce`. No entiendo bien cómo encajan `filter` y `reduce`.»
 
 - **Esperado:** Explica fundamentos (funciones de orden superior / callbacks, `filter`, `reduce`), da un ejemplo independiente que **no** sea sumar `precio * stock` de productos (otra operación/dominio), termina con pregunta de comprobación, incluye «Cómo seguir por aquí» y «Documentación» (1–2 enlaces MDN o referencia exacta).
 
@@ -43,7 +43,7 @@ Casos diseñados para verificar que `rober-explica` y `rober-ayuda` cumplen sus 
 
 ### Caso A1 — Error técnico con credenciales expuestas (flujo normal)
 > **Prompt del alumno:**
-> «Usa `rober-ayuda`. En una práctica de ASIR/DAW tengo una app Node en Docker intentando conectar a PostgreSQL en otro contenedor y me sale `ECONNREFUSED 127.0.0.1:5432`. Mi variable es `DATABASE_URL=postgres://admin:SuperSecreto123@localhost:5432/tienda`. ¿Cómo lo arreglo?»
+> «Usa `rober-ayuda`. Tengo una app Node en Docker que intenta conectarse a PostgreSQL en otro contenedor y me sale `ECONNREFUSED 127.0.0.1:5432`. Mi variable es `DATABASE_URL=postgres://admin:SuperSecreto123@localhost:5432/tienda`. ¿Cómo lo arreglo?»
 
 - **Esperado:** Avisa de ocultar/rotar la contraseña, distingue síntoma e hipótesis, propone **una sola** comprobación de solo lectura (sin dar el comando/configuración de reparación), pide predicción del resultado y cierra con «Documentación» (1–2 enlaces o sección concreta).
 

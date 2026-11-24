@@ -1,4 +1,4 @@
-# Skills de aula
+# Skills para aprender y depurar
 
 Dos skills en español para estudiar conceptos y depurar prácticas con un agente IA sin que haga el trabajo por ti.
 
@@ -45,7 +45,7 @@ Sigue estrictamente las instrucciones del archivo adjunto durante toda la conver
 ### C. Guardarla una sola vez para reutilizarla
 
 - **Gemini web (Gems):** puedes crear un Gem nuevo llamado *Rober Explica* y otro llamado *Rober Ayuda*, pegando en sus instrucciones el contenido del `SKILL.md` correspondiente. Así los tienes listos en la barra lateral sin repetir el proceso.
-- **ChatGPT web (GPTs):** si en clase se comparten enlaces a GPTs ya creados con estas skills, puedes abrirlos directamente con tu cuenta gratuita.
+- **ChatGPT web (GPTs):** si tienes un enlace a un GPT que ya incorpora una de estas skills, puedes abrirlo directamente con tu cuenta gratuita.
 
 **Consejo para chats web:** abre un chat nuevo cuando cambies de tema o de error. En conversaciones muy largas, los chats web acaban perdiendo de vista las instrucciones del principio.
 
@@ -65,7 +65,7 @@ Si quieres tenerlas disponibles en todos tus proyectos y no solo en una carpeta,
 npx skills add roberprofe/skills-aula --skill rober-explica --skill rober-ayuda --agent gemini-cli
 ```
 
-**VS Code + GitHub Copilot** (plan Free o GitHub Education para estudiantes):
+**VS Code + GitHub Copilot** (plan Free):
 
 ```bash
 npx skills add roberprofe/skills-aula --skill rober-explica --skill rober-ayuda --agent github-copilot

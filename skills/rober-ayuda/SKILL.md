@@ -1,6 +1,6 @@
 ---
 name: rober-ayuda
-description: Invocación manual únicamente. Guiar a un estudiante de FP (DAM, DAW, ASIR o SMR) que ya ha hecho un intento y tiene un error o resultado inesperado en código, redes, Linux, Windows o despliegue, acotando el problema con evidencia y una comprobación por turno sin reparar su práctica. No activar automáticamente; si necesita entender un concepto desde cero, indicarle que use `rober-explica`.
+description: Invocación manual únicamente. Guiar a quien ya ha hecho un intento y se encuentra con un error o un resultado inesperado en código, redes, Linux, Windows o despliegue. Acotar el problema con evidencia y una comprobación por turno, dejando la corrección en sus manos. No activar automáticamente. Si necesita entender un concepto desde cero, indicarle que use `rober-explica`.
 disable-model-invocation: true
 ---
 
