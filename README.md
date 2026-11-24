@@ -1,4 +1,8 @@
-# Skills para aprender y depurar
+<p align="center">
+  <img src="assets/logo.svg" alt="Logo de las skills, un pato blanco sobre fondo coral" width="236" height="236">
+</p>
+
+<h1 align="center">Skills para aprender y depurar</h1>
 
 Dos skills en español para estudiar conceptos y depurar prácticas con un agente IA sin que haga el trabajo por ti.
 
